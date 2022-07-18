@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA01 體驗 非同步工作 與 非同步方法 的不同", "AA01 體驗 非同步工作 與 非同步方法 的不同\AA01 體驗 非同步工作 與 非同步方法 的不同.csproj", "{E5A69789-3800-49D0-8E79-09458362956F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA02 同步 TAP (含ValueTask) async方法 效能表現", "AA02 同步 TAP (含ValueTask) async方法 效能表現\AA02 同步 TAP (含ValueTask) async方法 效能表現.csproj", "{56F6FAEA-AF33-4308-A1A0-560315D8B451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5A69789-3800-49D0-8E79-09458362956F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A69789-3800-49D0-8E79-09458362956F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5A69789-3800-49D0-8E79-09458362956F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F6FAEA-AF33-4308-A1A0-560315D8B451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F6FAEA-AF33-4308-A1A0-560315D8B451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F6FAEA-AF33-4308-A1A0-560315D8B451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F6FAEA-AF33-4308-A1A0-560315D8B451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
