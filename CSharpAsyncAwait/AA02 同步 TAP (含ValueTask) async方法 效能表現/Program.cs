@@ -48,7 +48,7 @@ namespace AA02_同步_TAP__含ValueTask__async方法_效能表現
         public static void GetMySyncAsync()
         {
             // 若解除底下這一行，看看 同步 sync 方法 與 非同步 async 方法 執行後有何不同呢？
-            for (int i = 0; i < 18; i++) { }
+            // for (int i = 0; i < 18; i++) { }
             return;
         }
 
