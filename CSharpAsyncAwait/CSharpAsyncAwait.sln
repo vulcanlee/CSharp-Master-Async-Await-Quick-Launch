@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA03 APM - 使用 WebReques
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA04 APM - 使用 WebRequest 類別要求資料 - 非同步設計", "AA04 APM - 使用 WebRequest 類別要求資料 - 非同步設計\AA04 APM - 使用 WebRequest 類別要求資料 - 非同步設計.csproj", "{CF525852-1139-4C60-9908-2665DE9753D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA05 EAP - 使用 WebClient 類別要求資料 - 同步設計", "AA05 EAP - 使用 WebClient 類別要求資料 - 同步設計\AA05 EAP - 使用 WebClient 類別要求資料 - 同步設計.csproj", "{83D6757E-2802-4AC1-9B67-6E93753C5FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CF525852-1139-4C60-9908-2665DE9753D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF525852-1139-4C60-9908-2665DE9753D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF525852-1139-4C60-9908-2665DE9753D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D6757E-2802-4AC1-9B67-6E93753C5FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D6757E-2802-4AC1-9B67-6E93753C5FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D6757E-2802-4AC1-9B67-6E93753C5FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D6757E-2802-4AC1-9B67-6E93753C5FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

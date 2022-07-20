@@ -6,11 +6,11 @@
 |AA02|同步 、 TAP  (含 ValueTask) 、 async 方法 效能表現||
 |AA03|APM - 使用 WebRequest 類別要求資料 - 同步設計||
 |AA04|APM - 使用 WebRequest 類別要求資料 - 非同步設計||
-|AA05|||
-|AA06|||
-|AA07|||
-|AA08|||
-|AA09|||
+|AA05|EAP - 使用 WebClient 類別要求資料 - 同步設計||
+|AA06|EAP - 使用 WebClient 類別要求資料 - 非同步設計||
+|AA07|TAP - 使用 HttpClient 類別要求資料 - 同步設計||
+|AA08|TAP - 使用 HttpClient 類別要求資料 - 非同步設計||
+|AA09|使用 async await 進行要求資料 - 非同步設計||
 |AA10|||
 |AA11|||
 |AA12|||
