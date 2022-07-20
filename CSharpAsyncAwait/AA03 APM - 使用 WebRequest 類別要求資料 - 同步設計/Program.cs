@@ -15,11 +15,11 @@
             // 建立呼叫 Web API 的服務端點 URL
             // 使用同步 Action 呼叫，要將兩個整數相加，休息三秒後回傳結果
             string endPoint = $"{baseURI}/add/1/3/3000";
-            // 建立使用 APM 模式的 HTTP 呼叫物件 HttpWebRequest
+            // 建立使用 HttpWebRequest 物件，以便等下取得 HTTP 回應
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(endPoint);
             // 取得 HTTP 回應 Response
             HttpWebResponse webResponse = (HttpWebResponse)request.GetResponse();
-            // 取得 HTTP 回應的串流 Stream 內容
+            // 取得 HTTP 回應的 資料流程 Stream 內容
             Stream responseStream = webResponse.GetResponseStream();
             StreamReader readStream = new StreamReader(responseStream, Encoding.UTF8);
             // 讀取串流內容

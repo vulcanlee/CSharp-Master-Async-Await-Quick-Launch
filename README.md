@@ -4,8 +4,8 @@
 |-|-|-|
 |AA01|體驗 非同步工作 與 非同步方法 的不同||
 |AA02|同步 、 TAP  (含 ValueTask) 、 async 方法 效能表現||
-|AA03|||
-|AA04|||
+|AA03|APM - 使用 WebRequest 類別要求資料 - 同步設計||
+|AA04|APM - 使用 WebRequest 類別要求資料 - 非同步設計||
 |AA05|||
 |AA06|||
 |AA07|||
