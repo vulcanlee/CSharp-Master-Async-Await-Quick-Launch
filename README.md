@@ -11,7 +11,7 @@
 |AA07|TAP - 使用 HttpClient 類別要求資料 - 同步設計||
 |AA08|TAP - 使用 HttpClient 類別要求資料 - 非同步設計||
 |AA09|使用 async await 進行要求資料 - 非同步設計||
-|AA10|||
+|AA10|await 執行分解動作||
 |AA11|||
 |AA12|||
 |AA13|||
