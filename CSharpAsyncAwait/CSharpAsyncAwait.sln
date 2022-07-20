@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA06 EAP - 使用 WebClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA07 TAP - 使用 HttpClient 類別要求資料 - 同步設計", "AA07 TAP - 使用 HttpClient 類別要求資料 - 同步設計\AA07 TAP - 使用 HttpClient 類別要求資料 - 同步設計.csproj", "{DFE78E87-8985-485F-A8A1-4F3F00AFEAA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA08 TAP - 使用 HttpClient 類別要求資料 - 非同步設計", "AA08 TAP - 使用 HttpClient 類別要求資料 - 非同步設計\AA08 TAP - 使用 HttpClient 類別要求資料 - 非同步設計.csproj", "{7272EDFD-C84A-4ECA-827F-927A2DC5C963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{DFE78E87-8985-485F-A8A1-4F3F00AFEAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE78E87-8985-485F-A8A1-4F3F00AFEAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE78E87-8985-485F-A8A1-4F3F00AFEAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7272EDFD-C84A-4ECA-827F-927A2DC5C963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7272EDFD-C84A-4ECA-827F-927A2DC5C963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7272EDFD-C84A-4ECA-827F-927A2DC5C963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7272EDFD-C84A-4ECA-827F-927A2DC5C963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
