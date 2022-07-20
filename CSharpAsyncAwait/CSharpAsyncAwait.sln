@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA09 使用 async await 進
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA10 await 執行分解動作", "AA10 await 執行分解動作\AA10 await 執行分解動作.csproj", "{8D9B7E8E-3DEF-4CB6-820A-0A69B9D4B3C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA11 編譯器對 async await 做了什麼事情", "AA11 編譯器對 async await 做了什麼事情\AA11 編譯器對 async await 做了什麼事情.csproj", "{680D6CD7-EBC2-40C7-80D9-ADDD427A0F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{8D9B7E8E-3DEF-4CB6-820A-0A69B9D4B3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9B7E8E-3DEF-4CB6-820A-0A69B9D4B3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9B7E8E-3DEF-4CB6-820A-0A69B9D4B3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680D6CD7-EBC2-40C7-80D9-ADDD427A0F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680D6CD7-EBC2-40C7-80D9-ADDD427A0F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680D6CD7-EBC2-40C7-80D9-ADDD427A0F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680D6CD7-EBC2-40C7-80D9-ADDD427A0F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
