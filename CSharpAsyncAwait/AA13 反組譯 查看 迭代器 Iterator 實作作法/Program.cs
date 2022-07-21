@@ -1,4 +1,4 @@
-﻿namespace AA13_反組譯_查看_迭代器_Iterator_實作作法
+﻿namespace AA13_查看編譯器幫_迭代器_Iterator_產生了哪些程式碼
 {
     internal class Program
     {
