@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA15 在 async 方法內沒
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例", "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例\AA16 非同步 Task 在執行中，不一定會用到執行緒的範例.csproj", "{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA17 在 WPF 下的執行結果 為何會打死結 NET Framework", "AA17 在 WPF 下的執行結果 為何會打死結 NET Framework\AA17 在 WPF 下的執行結果 為何會打死結 NET Framework.csproj", "{D318B3DD-3661-44DB-AE48-8710783AC317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA17 在 WPF 下的執行結果 為何會打死結", "AA17 在 WPF 下的執行結果 為何會打死結\AA17 在 WPF 下的執行結果 為何會打死結.csproj", "{052D3262-6716-4777-95B2-DEAF6C797B07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D318B3DD-3661-44DB-AE48-8710783AC317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D318B3DD-3661-44DB-AE48-8710783AC317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D318B3DD-3661-44DB-AE48-8710783AC317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D318B3DD-3661-44DB-AE48-8710783AC317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052D3262-6716-4777-95B2-DEAF6C797B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052D3262-6716-4777-95B2-DEAF6C797B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052D3262-6716-4777-95B2-DEAF6C797B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052D3262-6716-4777-95B2-DEAF6C797B07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
