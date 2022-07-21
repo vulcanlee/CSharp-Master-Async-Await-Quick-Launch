@@ -31,6 +31,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA13 反組譯 查看 迭�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA14 async 方法內有多個 await 練習", "AA14 async 方法內有多個 await 練習\AA14 async 方法內有多個 await 練習.csproj", "{535B6057-D486-4D9C-A5AB-D610138C9728}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA15 在 async 方法內沒有使用 await 效能分析", "AA15 在 async 方法內沒有使用 await 效能分析\AA15 在 async 方法內沒有使用 await 效能分析.csproj", "{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例", "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例\AA16 非同步 Task 在執行中，不一定會用到執行緒的範例.csproj", "{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{535B6057-D486-4D9C-A5AB-D610138C9728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535B6057-D486-4D9C-A5AB-D610138C9728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535B6057-D486-4D9C-A5AB-D610138C9728}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
