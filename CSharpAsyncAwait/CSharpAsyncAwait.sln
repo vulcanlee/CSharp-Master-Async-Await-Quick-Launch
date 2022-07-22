@@ -29,15 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA12 探究編譯器對程�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA13 查看編譯器幫 迭代器 Iterator 產生了哪些程式碼", "AA13 反組譯 查看 迭代器 Iterator 實作作法\AA13 查看編譯器幫 迭代器 Iterator 產生了哪些程式碼.csproj", "{4948AB7C-1EE3-497F-A855-0A62457213F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA14 async 方法內有多個 await 練習", "AA14 async 方法內有多個 await 練習\AA14 async 方法內有多個 await 練習.csproj", "{535B6057-D486-4D9C-A5AB-D610138C9728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA14 async 方法內有多個 await 練習", "AA14 async 方法內有多個 await 練習\AA14 async 方法內有多個 await 練習.csproj", "{535B6057-D486-4D9C-A5AB-D610138C9728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA15 在 async 方法內沒有使用 await 效能分析", "AA15 在 async 方法內沒有使用 await 效能分析\AA15 在 async 方法內沒有使用 await 效能分析.csproj", "{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA15 在 async 方法內沒有使用 await 效能分析", "AA15 在 async 方法內沒有使用 await 效能分析\AA15 在 async 方法內沒有使用 await 效能分析.csproj", "{21EFDF3C-2474-4DA7-93B2-9A63D6F3B6E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例", "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例\AA16 非同步 Task 在執行中，不一定會用到執行緒的範例.csproj", "{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例", "AA16 非同步 Task 在執行中，不一定會用到執行緒的範例\AA16 非同步 Task 在執行中，不一定會用到執行緒的範例.csproj", "{F77B34C8-2A9C-4103-B744-4DB87ABAE6B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA17 在 WPF 下的執行結果 為何會打死結 NET Framework", "AA17 在 WPF 下的執行結果 為何會打死結 NET Framework\AA17 在 WPF 下的執行結果 為何會打死結 NET Framework.csproj", "{D318B3DD-3661-44DB-AE48-8710783AC317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA17 在 WPF 下的執行結果 為何會打死結", "AA17 在 WPF 下的執行結果 為何會打死結\AA17 在 WPF 下的執行結果 為何會打死結.csproj", "{052D3262-6716-4777-95B2-DEAF6C797B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA17 在 WPF 下的執行結果 為何會打死結", "AA17 在 WPF 下的執行結果 為何會打死結\AA17 在 WPF 下的執行結果 為何會打死結.csproj", "{052D3262-6716-4777-95B2-DEAF6C797B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA18 無法 try…catch 有問題的程式碼", "AA18 無法 try…catch 有問題的程式碼\AA18 無法 try…catch 有問題的程式碼.csproj", "{497A61F5-6BA8-44E2-ABA0-47E654746C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{052D3262-6716-4777-95B2-DEAF6C797B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{052D3262-6716-4777-95B2-DEAF6C797B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{052D3262-6716-4777-95B2-DEAF6C797B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497A61F5-6BA8-44E2-ABA0-47E654746C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497A61F5-6BA8-44E2-ABA0-47E654746C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497A61F5-6BA8-44E2-ABA0-47E654746C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497A61F5-6BA8-44E2-ABA0-47E654746C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
