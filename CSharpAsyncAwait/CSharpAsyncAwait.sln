@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA19 程式突然當掉，�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA20 為何會拋出不同例外異常", "AA20 為何會拋出不同例外異常\AA20 為何會拋出不同例外異常.csproj", "{100C0622-EECE-4A80-BF46-47FCEED710DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA21 程式打死結卡住了 - ASP.NET MVC", "AA21 程式打死結卡住了 - ASP.NET MVC\AA21 程式打死結卡住了 - ASP.NET MVC.csproj", "{2CE3187E-65F5-4C99-8E12-970A604A8396}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE3187E-65F5-4C99-8E12-970A604A8396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE3187E-65F5-4C99-8E12-970A604A8396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE3187E-65F5-4C99-8E12-970A604A8396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE3187E-65F5-4C99-8E12-970A604A8396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
