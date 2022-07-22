@@ -28,7 +28,7 @@
 |AA23|程式不會打死結卡住 - Console||
 |AA24|無法正常更新物件 ASP.NET MVC||
 |AA25|更新UI物件卻會當掉 Windows Forms||
-|AA26|||
+|AA26|UI會停頓與不順暢 Windows Forms||
 |AA27|||
 |AA28|||
 |AA29|||
