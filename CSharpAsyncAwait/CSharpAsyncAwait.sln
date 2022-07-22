@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA22 程式打死結卡住�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA23 程式不會打死結卡住 - Console", "AA23 程式不會打死結卡住 - Console\AA23 程式不會打死結卡住 - Console.csproj", "{0790357D-D110-4A08-9708-10808A187FFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA24 無法正常更新物件 ASP.NET MVC", "AA24 無法正常更新物件 ASP.NET MVC\AA24 無法正常更新物件 ASP.NET MVC.csproj", "{0E4C821E-D614-435F-90BD-48286C1B6F40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{0790357D-D110-4A08-9708-10808A187FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0790357D-D110-4A08-9708-10808A187FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0790357D-D110-4A08-9708-10808A187FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,7 +26,7 @@
 |AA21|程式打死結卡住了 - ASP.NET MVC||
 |AA22|程式打死結卡住了 - Windows Forms||
 |AA23|程式不會打死結卡住 - Console||
-|AA24|||
+|AA24|無法正常更新物件 ASP.NET MVC||
 |AA25|||
 |AA26|||
 |AA27|||

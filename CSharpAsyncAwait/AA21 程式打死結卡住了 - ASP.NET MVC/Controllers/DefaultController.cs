@@ -12,6 +12,7 @@ namespace AA21_程式打死結卡住了___ASP.NET_MVC.Controllers
     {
         string baseURI =
             "https://backendhol.azurewebsites.net/api/performance";
+
         // GET: Default
 
         #region 這裡程式碼 會 打死結
