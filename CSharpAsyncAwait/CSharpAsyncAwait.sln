@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA19 程式突然當掉，�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA19 程式突然當掉，卻不知道問題在哪 NET Framework", "AA19 程式突然當掉，卻不知道問題在哪 NET Framework\AA19 程式突然當掉，卻不知道問題在哪 NET Framework.csproj", "{CE687474-D4D0-4C52-8956-313CF9FCC270}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA20 為何會拋出不同例外異常", "AA20 為何會拋出不同例外異常\AA20 為何會拋出不同例外異常.csproj", "{100C0622-EECE-4A80-BF46-47FCEED710DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{CE687474-D4D0-4C52-8956-313CF9FCC270}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE687474-D4D0-4C52-8956-313CF9FCC270}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE687474-D4D0-4C52-8956-313CF9FCC270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100C0622-EECE-4A80-BF46-47FCEED710DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
