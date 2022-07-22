@@ -24,7 +24,7 @@
 |AA19|程式突然當掉，卻不知道問題在哪 NET Framework||
 |AA20|為何會拋出不同例外異常||
 |AA21|程式打死結卡住了 - ASP.NET MVC||
-|AA22|||
+|AA22|程式打死結卡住了 - Windows Forms||
 |AA23|||
 |AA24|||
 |AA25|||

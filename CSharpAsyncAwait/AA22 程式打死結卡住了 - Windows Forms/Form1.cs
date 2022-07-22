@@ -1,34 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
+using System.Windows.Forms;
 
-namespace AA21_程式打死結卡住了___ASP.NET_MVC.Controllers
+namespace AA22_程式打死結卡住了___Windows_Forms
 {
-    public class DefaultController : Controller
+    public partial class Form1 : Form
     {
         string baseURI =
-            "https://backendhol.azurewebsites.net/api/performance";
-        // GET: Default
+       "https://backendhol.azurewebsites.net/api/performance";
+        public Form1()
+        {
+            InitializeComponent();
+        }
 
         #region 這裡程式碼 會 打死結
-        //public ActionResult Index()
+        //private void DoDeadlock_Click(object sender, EventArgs e)
         //{
         //    var sumTask = SumAsync(168, 89);
         //    var result = sumTask.Result;
-        //    return View();
+        //    label1.Text = result;
         //}
         #endregion
 
         #region (這裡程式碼不會打死結) 全部都使用 async await 就可以解決囉
-        public async Task<ActionResult> Index()
+        private async void DoDeadlock_ClickAsync(object sender, EventArgs e)
         {
             var result = await SumAsync(168, 89);
-
-            return View();
+            label1.Text = result;
         }
         #endregion
 
