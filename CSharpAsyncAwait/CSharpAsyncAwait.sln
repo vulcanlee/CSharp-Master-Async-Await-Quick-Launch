@@ -39,21 +39,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA17 在 WPF 下的執行�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA17 在 WPF 下的執行結果 為何會打死結", "AA17 在 WPF 下的執行結果 為何會打死結\AA17 在 WPF 下的執行結果 為何會打死結.csproj", "{052D3262-6716-4777-95B2-DEAF6C797B07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA18 無法 try…catch 有問題的程式碼", "AA18 無法 try…catch 有問題的程式碼\AA18 無法 try…catch 有問題的程式碼.csproj", "{497A61F5-6BA8-44E2-ABA0-47E654746C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA18 無法 try…catch 有問題的程式碼", "AA18 無法 try…catch 有問題的程式碼\AA18 無法 try…catch 有問題的程式碼.csproj", "{497A61F5-6BA8-44E2-ABA0-47E654746C40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA19 程式突然當掉，卻不知道問題在哪", "AA19 程式突然當掉，卻不知道問題在哪\AA19 程式突然當掉，卻不知道問題在哪.csproj", "{DA4344C2-AC2D-47D3-B9C3-CF5C67C3ABF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA19 程式突然當掉，卻不知道問題在哪", "AA19 程式突然當掉，卻不知道問題在哪\AA19 程式突然當掉，卻不知道問題在哪.csproj", "{DA4344C2-AC2D-47D3-B9C3-CF5C67C3ABF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA19 程式突然當掉，卻不知道問題在哪 NET Framework", "AA19 程式突然當掉，卻不知道問題在哪 NET Framework\AA19 程式突然當掉，卻不知道問題在哪 NET Framework.csproj", "{CE687474-D4D0-4C52-8956-313CF9FCC270}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA20 為何會拋出不同例外異常", "AA20 為何會拋出不同例外異常\AA20 為何會拋出不同例外異常.csproj", "{100C0622-EECE-4A80-BF46-47FCEED710DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA20 為何會拋出不同例外異常", "AA20 為何會拋出不同例外異常\AA20 為何會拋出不同例外異常.csproj", "{100C0622-EECE-4A80-BF46-47FCEED710DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA21 程式打死結卡住了 - ASP.NET MVC", "AA21 程式打死結卡住了 - ASP.NET MVC\AA21 程式打死結卡住了 - ASP.NET MVC.csproj", "{2CE3187E-65F5-4C99-8E12-970A604A8396}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA22 程式打死結卡住了 - Windows Forms", "AA22 程式打死結卡住了 - Windows Forms\AA22 程式打死結卡住了 - Windows Forms.csproj", "{7E082723-4E54-4E98-8C22-A32A43640AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA23 程式不會打死結卡住 - Console", "AA23 程式不會打死結卡住 - Console\AA23 程式不會打死結卡住 - Console.csproj", "{0790357D-D110-4A08-9708-10808A187FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AA23 程式不會打死結卡住 - Console", "AA23 程式不會打死結卡住 - Console\AA23 程式不會打死結卡住 - Console.csproj", "{0790357D-D110-4A08-9708-10808A187FFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA24 無法正常更新物件 ASP.NET MVC", "AA24 無法正常更新物件 ASP.NET MVC\AA24 無法正常更新物件 ASP.NET MVC.csproj", "{0E4C821E-D614-435F-90BD-48286C1B6F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AA25 更新UI物件卻會當掉 Windows Forms", "AA25 更新UI物件卻會當掉 Windows Forms\AA25 更新UI物件卻會當掉 Windows Forms.csproj", "{EAE389A4-CA06-46C6-80B0-A52A9D9E25B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4C821E-D614-435F-90BD-48286C1B6F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE389A4-CA06-46C6-80B0-A52A9D9E25B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE389A4-CA06-46C6-80B0-A52A9D9E25B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE389A4-CA06-46C6-80B0-A52A9D9E25B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE389A4-CA06-46C6-80B0-A52A9D9E25B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
