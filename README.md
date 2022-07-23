@@ -29,7 +29,7 @@
 |AA24|無法正常更新物件 ASP.NET MVC||
 |AA25|更新UI物件卻會當掉 Windows Forms||
 |AA26|UI會停頓與不順暢 Windows Forms||
-|AA27|||
+|AA27|壓測後端同步與非同步API||
 |AA28|||
 |AA29|||
 |AA30|||
