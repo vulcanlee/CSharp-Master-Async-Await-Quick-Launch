@@ -39,7 +39,7 @@ namespace AA17_在_WPF_下的執行結果_為何會打死結
         async Task MyAsyncMethod()
         {
             ShowThreadId("await MyMethod Before");
-            await Task.Delay(1000);
+            await Task.Delay(3000);
             ShowThreadId("await MyMethod After");
             return;
         }
@@ -47,7 +47,9 @@ namespace AA17_在_WPF_下的執行結果_為何會打死結
         {
             return Task.Run(() =>
             {
-                Thread.Sleep(1000);
+                ShowThreadId("Thread.Sleep Before");
+                Thread.Sleep(3000);
+                ShowThreadId("Thread.Sleep After");
             });
         }
 
