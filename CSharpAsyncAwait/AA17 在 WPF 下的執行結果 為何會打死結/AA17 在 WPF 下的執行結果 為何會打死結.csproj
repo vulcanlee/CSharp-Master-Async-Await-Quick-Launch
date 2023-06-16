@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <RootNamespace>AA17_在_WPF_下的執行結果_為何會打死結</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
